@@ -1,0 +1,33 @@
+.card-img-top {
+  width: 15rem;
+  height: 15rem;
+}
+
+.card {
+  border: none;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-top: 0.5rem;
+  color: var(--general-text-color);
+}
+
+.buyable_products__price {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--accent-orange-color);
+}
+
+#cart-button {
+  border: none;
+  width: 150px;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 30px;
+  color: var(--about-us-button-hover-color);
+  background-color: var(--about-us-button-hover-back-color);
+}

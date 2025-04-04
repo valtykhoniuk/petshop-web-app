@@ -1,0 +1,12 @@
+@import "global.css";
+@import "index.header.partial.css";
+@import "index.pick-block.partial.css";
+@import "index.adds-block.partial.css";
+@import "controls.css";
+@import "division-style.css";
+@import "index.intro-block.partial.css";
+@import "index.products-block.partial.css";
+@import "index.carousel-products.css";
+@import "index.timer-block.partial.css";
+@import "index.products-list.css";
+

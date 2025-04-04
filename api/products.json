@@ -1,0 +1,60 @@
+[
+  {
+    "id": "1",
+    "title": "DORA Metal brush",
+    "image": "img/brush.png",
+    "price": 20.2
+  },
+
+  {
+    "id": "2",
+    "title": "Kitten's heaven set",
+    "image": "img/toys.png",
+    "price": 20.0
+  },
+
+  {
+    "id": "3",
+    "title": "OPTY Pet Carrier",
+    "image": "img/basket.png",
+    "price": 20.0
+  },
+  {
+    "id": "4",
+    "title": "AGA Rope Toy",
+    "image": "img/toys2.png",
+    "price": 20.0
+  },
+
+  {
+    "id": "5",
+    "title": "DORA Pet Carrier",
+    "image": "img/basket2.png",
+    "price": 20.0
+  },
+
+  {
+    "id": "6",
+    "title": "DOGGY Fun Set",
+    "image": "img/glove.png",
+    "price": 6.00
+  },
+  {
+    "id": "7",
+    "title": "DUNA Pillow Bed",
+    "image": "img/bed.png",
+    "price": 8.00
+  },
+  {
+    "id": "8",
+    "title": "AGA Retractable Leash",
+    "image": "img/walk-item.png",
+    "price": 23.00
+  },
+  {
+    "id": "9",
+    "title": "DOGGY 2-Bunch Toy",
+    "image": "img/toy.png",
+    "price": 10.00
+  }
+]

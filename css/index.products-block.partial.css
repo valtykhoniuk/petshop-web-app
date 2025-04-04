@@ -1,0 +1,31 @@
+.buyable_products {
+  margin: auto;
+  margin-top: 40px;
+  max-width: 1200px;
+  padding: 2rem;
+}
+
+.buyable_products__card {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.buyable_products__image {
+  width: 15rem;
+  height: 15rem;
+}
+
+.buyable_products__card-title {
+  font-size: 1.25rem;
+  margin-top: 0.5rem;
+  color: var(--general-text-color);
+}
+
+.buyable_products__price {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--accent-orange-color);
+}
