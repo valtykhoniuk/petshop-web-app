@@ -1,0 +1,47 @@
+.products {
+  margin: auto;
+  max-width: 1200px;
+  padding: 2rem;
+}
+
+.products__intro {
+  text-align: center;
+
+  .products__title {
+    color: var(--main-text-color);
+    font-weight: 900;
+    font-size: 1.8rem;
+  }
+
+  .products__icon {
+    width: 5rem;
+    margin: 1rem auto;
+  }
+}
+
+.products__list {
+  display: grid;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.products__card {
+  border: 1px solid var(--accent-pink-color);
+  padding: 1rem;
+  text-align: center;
+}
+
+.products__image {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+}
+
+.products__card-title {
+  font-size: 1.25rem;
+  margin-top: 0.5rem;
+}
+
+.products__card-description {
+  font-size: 0.9rem;
+}

@@ -1,0 +1,51 @@
+.offers {
+  background-color: var(--categories-button-secondary-color);
+  display: grid;
+  gap: 2rem;
+  padding: 2rem;
+  grid-template-columns: 1fr; /* Default to single column layout for narrow screens */
+}
+
+.offers__item {
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  padding: 2rem;
+  border-radius: 8px;
+  height: 100%; 
+}
+
+#brands-offer {
+  background-image: url(../img/background-1.webp);
+
+  .offers__headline {
+    color: var(--main-text-color);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .offers__brands {
+    color: var(--accent-orange-color);
+    font-weight: 600;
+  }
+}
+
+#discounts-offer {
+  background-image: url(../img/background-2.webp);
+  align-items: center;
+
+  .offers__discount {
+    color: var(--main-text-color);
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .accent-text-element {
+    color: var(--accent-orange-color);
+  }
+}

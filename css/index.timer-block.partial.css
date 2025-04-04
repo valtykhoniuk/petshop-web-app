@@ -1,0 +1,51 @@
+.timer-block {
+  background: url("../img/background-4.png") center center no-repeat;
+  width: 100%;
+}
+
+.timer__banner {
+  width: 100%;
+  min-height: 80vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  padding: 4rem;
+}
+
+.timer__clock{
+    margin-top: 20px;
+    font-size: 2rem;
+    font-weight: bolder;
+    display: flex;
+    gap: 1rem;
+    color: var(--dark-main-text-color);
+}
+
+
+.timer__title {
+  font-size: 5rem;
+  font-weight:900px;
+  color: var(--dark-main-text-color);
+  margin-bottom: 1rem;
+}
+
+.timer__description {
+  font-size: 1rem;
+}
+
+.timer__links {
+  padding-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+#timer-item{
+    border: 2px solid var(--categories-button-color); /* Голубая рамка */
+    border-radius: 20px;
+    padding: 40px; 
+    box-sizing: border-box;
+}

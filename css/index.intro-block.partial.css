@@ -1,0 +1,33 @@
+.pet-care__title {
+  color: var(--main-text-color);
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.pet-care__icon {
+  width: 5rem;
+}
+
+.svg-li {
+  width: 1.2rem;
+  height: auto;
+  color: var(--categories-button-color);
+}
+
+.pet-care-block {
+  padding: 2rem;
+  display: flex;
+  background-color: var(--main-theme-color);
+}
+
+.pet-care__text {
+  padding-top: 1rem;
+}
+
+.pet-care__list {
+  padding-top: 1rem;
+}
+
+.pet-care__item {
+  padding-top: 1rem;
+}

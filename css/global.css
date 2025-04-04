@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  scroll-behavior: smooth;
+  --main-text-font: "Varela Round", sans-serif;
+  --general-text-font: "Open Sans", sans-serif;
+  --main-text-color: rgb(85, 76, 70);
+  --dark-main-text-color:rgb(63, 53, 45);
+  --general-text-color: rgb(161, 148, 139);
+  --main-theme-color: #faf4f2;
+  --button-color: rgb(255, 223, 187);
+  --accent-pink-color: #fbd6bf;
+  --accent-orange-color: #ed6435;
+  --about-us-button-hover-color: rgb(8, 143, 148);
+  --about-us-button-hover-back-color: rgb(173, 224, 226);
+  --categories-button-color: rgb(69 193 199);
+  --categories-button-secondary-color: rgb(250 244 242);
+}
+
+body {
+  margin: 0;
+  line-height: 1.6;
+}
+
+h1 {
+  font-family: var(--main-text-font);
+  color: var(--main-text-color);
+  font-weight: 900;
+}
+
+h2 {
+  font-family: var(--main-text-font);
+  font-weight: 500;
+}
+
+p,
+a,
+ul {
+  font-family: var(--general-text-font);
+  color: var(--general-text-color);
+  list-style-type: none;
+}
+
+.alert-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
